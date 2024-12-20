@@ -1,0 +1,33 @@
+{
+  "name": "flight-diaries",
+  "version": "1.0.0",
+  "description": "Proyecto del curso full-stack University of Helsinki - flight diaries",
+  "main": "index.ts",
+  "scripts": {
+    "tsc": "tsc ./src",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node build/index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test speacified\" && exit 1"
+  },
+  "author": "Diego@salcedo",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@stylistic/eslint-plugin": "^2.12.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "uuid": "^11.0.3"
+  }
+}
